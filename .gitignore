@@ -62,3 +62,11 @@ models/
 *.onnx
 *.pt
 *.pth
+
+# Autres formats de clés, caches et sorties locales
+*.p12
+*.log
+*.bak
+credentials.json
+secrets/
+outputs/
