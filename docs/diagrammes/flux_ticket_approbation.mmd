@@ -1,0 +1,11 @@
+%% Ticket avec approbation humaine - architecture cible, pas validation du prototype
+flowchart LR
+ D[Brouillon fictif exact] --> P[Prévisualisation utilisateur]
+ P --> H{Approbation explicite ?}
+ H -->|non| N[Aucune création]
+ H -->|oui| A[Jeton lié utilisateur et contenu, expiration]
+ A --> M[Serveur MCP: autorisations et intégrité]
+ M --> I[Idempotence transactionnelle]
+ I --> T[Création unique et audit]
+ P -->|modification| D
+ I -->|rejeu| R[Même ticket, pas de doublon]

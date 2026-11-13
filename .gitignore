@@ -1,0 +1,47 @@
+﻿# Environnements Python
+.venv*/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+*.egg
+
+# Configuration sensible
+.env
+.env.*
+!.env.example
+*.token
+*.key
+approval.key
+auth.json
+.local/
+
+# Données volumineuses et temporaires
+data/
+corpus/
+backup_code_*.zip
+archives/
+reports/validation_reelle/
+livrable1/
+
+# Éditeurs et OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Dépôt Git (pour les copies)
+.git/
+
+# CI/CD local
+.github/workflows/
+ui/app.py

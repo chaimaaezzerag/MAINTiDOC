@@ -1,0 +1,15 @@
+%% Architecture globale - architecture cible, pas validation du prototype
+flowchart TD
+ UI[Streamlit: question et photo] --> API[FastAPI: identité, quotas, autorisations]
+ API --> G[LangGraph et composants LangChain]
+ G --> R[RAG texte et image, RRF, reranker]
+ G --> V[VLM local]
+ G --> M[MCP: lecture autorisée]
+ R --> S[Qdrant, PostgreSQL, MinIO cibles]
+ R --> V
+ V --> E[Vérification citations et incertitude]
+ E --> O[Réponse, clarification ou abstention]
+ G --> D[Brouillon exact]
+ D --> H{Approbation humaine explicite}
+ H -->|oui| T[MCP: création autorisée et idempotente]
+ H -->|non| N[Aucune création]

@@ -1,0 +1,12 @@
+%% Flux question et photographie - architecture cible, pas validation du prototype
+flowchart LR
+ A[Question et photographie] --> B[Authentification, limites]
+ B --> C[Filtre documentaire par groupe]
+ C --> D[Recherche texte et visuelle]
+ D --> E[Fusion RRF et reranking]
+ E --> F[VLM: extraits et images autorisés]
+ F --> G[Vérification indépendante des assertions et citations]
+ G --> H{Preuves suffisantes ?}
+ H -->|oui| I[Réponse sourcée]
+ H -->|non| J[Clarification ou abstention]
+ I --> K[Autorisation à chaque ouverture de source]

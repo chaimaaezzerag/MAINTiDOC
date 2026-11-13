@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="515" height="200" preserveAspectRatio="xMinYMin meet" viewBox="0 0 515 200" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="515" height="200"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-200)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="4" y="145" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="12" y="181" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,362) scale(1,-1)">maintenance</text>
+			<text x="12" y="170" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,340) scale(1,-1)">Manuels / procédures</text>
+			<rect x="183" y="145" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="181" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,362) scale(1,-1)">qualite</text>
+			<text x="191" y="170" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,340) scale(1,-1)">Historiques synthétiques</text>
+			<rect x="361" y="145" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="369" y="181" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,362) scale(1,-1)">evaluation</text>
+			<text x="369" y="170" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,340) scale(1,-1)">Contradictions / injection</text>
+			<rect x="183" y="75" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="111" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,222) scale(1,-1)">Autorisations serveur</text>
+			<text x="191" y="100" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,200) scale(1,-1)">Refus par défaut</text>
+			<text x="191" y="89" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,178) scale(1,-1)">Filtre avant récupération</text>
+			<rect x="4" y="0" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="12" y="36" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,72) scale(1,-1)">Documents autorisés</text>
+			<text x="12" y="25" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,50) scale(1,-1)">Identifiants + pages</text>
+			<rect x="183" y="0" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="36" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,72) scale(1,-1)">Ouverture de source</text>
+			<text x="191" y="25" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,50) scale(1,-1)">Contrôle renouvelé</text>
+			<rect x="361" y="0" width="150" height="50" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="369" y="36" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,72) scale(1,-1)">Outils MCP</text>
+			<text x="369" y="25" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,50) scale(1,-1)">ACL équipement + accord</text>
+			<path d="M 79,145 L 258,125 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 125, 250.7102 122.7958, 251.3764 128.7587" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,145 L 258,125 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 125, 255 132, 261 132" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 436,145 L 258,125 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 125, 264.6213 128.7628, 265.2912 122.8004" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,75 L 79,50 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="79 50, 85.51774 53.93942, 86.34768 47.99709" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,75 L 258,50 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 50, 255 57, 261 57" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,75 L 436,50 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="436 50, 428.6508 48.00275, 429.4853 53.94443" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

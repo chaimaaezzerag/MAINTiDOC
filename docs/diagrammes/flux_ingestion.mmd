@@ -1,0 +1,13 @@
+%% Flux ingestion - architecture cible, pas validation du prototype
+flowchart TD
+ A[PDF, scans réels, images] --> B{Droits et relecture établis ?}
+ B -->|non| X[Quarantaine / attente]
+ B -->|oui| C[ID stable, version, famille, groupes]
+ C --> D[Extraction texte, tableaux et figures]
+ C --> O[OCR si scan, contrôle du texte de référence]
+ D --> E[Passages et éléments avec page et identifiant]
+ O --> E
+ E --> F[Embeddings texte et image]
+ F --> Q[Index filtrable Qdrant cible]
+ E --> P[PostgreSQL métadonnées cible]
+ C --> M[MinIO fichiers cible]

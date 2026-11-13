@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="515" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 515 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="515" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="183" y="305" width="150" height="45" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="336" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,672) scale(1,-1)">Streamlit</text>
+			<text x="191" y="325" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,650) scale(1,-1)">Question + photographie</text>
+			<rect x="183" y="240" width="150" height="45" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="271" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,542) scale(1,-1)">FastAPI</text>
+			<text x="191" y="260" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,520) scale(1,-1)">Identité, quotas, accès</text>
+			<rect x="183" y="175" width="150" height="45" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="206" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,412) scale(1,-1)">LangGraph / LangChain</text>
+			<text x="191" y="195" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,390) scale(1,-1)">État et orchestration</text>
+			<rect x="4" y="95" width="150" height="52" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="12" y="133" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,266) scale(1,-1)">RAG texte + images</text>
+			<text x="12" y="122" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,244) scale(1,-1)">Fusion RRF / reranker</text>
+			<rect x="183" y="95" width="150" height="52" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="133" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,266) scale(1,-1)">VLM local via Ollama</text>
+			<text x="191" y="122" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,244) scale(1,-1)">Observations / réponse</text>
+			<rect x="361" y="95" width="150" height="52" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="369" y="133" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,266) scale(1,-1)">MCP maintenance fictive</text>
+			<text x="369" y="122" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,244) scale(1,-1)">Historique / tickets</text>
+			<rect x="4" y="10" width="150" height="60" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="12" y="56" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,112) scale(1,-1)">Stockages cibles</text>
+			<text x="12" y="45" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,90) scale(1,-1)">Qdrant / PostgreSQL</text>
+			<text x="12" y="34" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,68) scale(1,-1)">MinIO ; accès filtrés</text>
+			<rect x="183" y="10" width="150" height="60" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="191" y="56" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,112) scale(1,-1)">Vérification des preuves</text>
+			<text x="191" y="45" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,90) scale(1,-1)">Citations / incertitude</text>
+			<text x="191" y="34" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,68) scale(1,-1)">Réponse ou clarification</text>
+			<rect x="361" y="10" width="150" height="60" rx="5" ry="5" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(91%,95%,96%); fill-rule: evenodd;"/>
+			<text x="369" y="56" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,112) scale(1,-1)">Approbation humaine</text>
+			<text x="369" y="45" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,90) scale(1,-1)">Contenu exact approuvé</text>
+			<text x="369" y="34" style="font-family: Doc; font-size: 8.5px;fill: rgb(8%,20%,28%); stroke:none;" transform="translate(0,68) scale(1,-1)">avant création du ticket</text>
+			<path d="M 258,305 L 258,285 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 285, 255 292, 261 292" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,240 L 258,220 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 220, 255 227, 261 227" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,175 L 79,147 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="79 147, 85.45226 151.0458, 86.37954 145.1179" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,175 L 258,147 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 147, 255 154, 261 154" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,175 L 436,147 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="436 147, 428.6189 145.1242, 429.5512 151.0513" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 79,95 L 79,70 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="79 70, 76 77, 82 77" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 258,95 L 258,70 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="258 70, 255 77, 261 77" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 436,70 L 436,95 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="436 95, 439 88, 433 88" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 154,121 L 183,121 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="183 121, 176 118, 176 124" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 361,121 L 333,121 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="333 121, 340 124, 340 118" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<path d="M 333,40 L 361,40 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="361 40, 354 37, 354 43" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

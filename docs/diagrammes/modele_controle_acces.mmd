@@ -1,0 +1,10 @@
+%% Politique cible de groupes - architecture cible, pas validation du prototype
+flowchart TD
+ M[Groupe maintenance] --> G[Politique serveur cible]
+ Q[Groupe qualite] --> G
+ E[Groupe evaluation: fixtures spéciales] --> G
+ G --> R[Filtrage avant recherche]
+ G --> O[Contrôle ouverture PDF/image]
+ G --> T[Permissions équipement à chaque appel MCP]
+ T --> H[Accord lié au contenu pour création]
+ G --> X[Refus par défaut hors périmètre]

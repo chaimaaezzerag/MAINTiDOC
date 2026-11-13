@@ -1,0 +1,58 @@
+{
+  "pompes/manual_TR_fra_eng-2017": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/pompes/manual_TR_fra_eng-2017.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "pompes/manuale_2013_fra_eng_IM": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/pompes/manuale_2013_fra_eng_IM.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "pompes/manuale_MB_2013_fra_eng": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/pompes/manuale_MB_2013_fra_eng.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "vannes/2bax70en": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/vannes/2bax70en.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "vannes/2bo70en": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/vannes/2bo70en.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "vannes/4GV70en": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/vannes/4GV70en.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  },
+  "vannes/IMO-214EN": {
+    "groups": [
+      "maintenance"
+    ],
+    "version": null,
+    "path": "data/raw/vannes/IMO-214EN.pdf",
+    "provenance": "Politique de démonstration locale ; version documentaire non renseignée"
+  }
+}

@@ -1,0 +1,51 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.15.4
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:?Définir QDRANT_API_KEY}
+    ports: ["127.0.0.1:6333:6333"]
+    volumes: ["qdrant_data:/qdrant/storage"]
+    restart: unless-stopped
+  postgres:
+    image: postgres:16.10-alpine
+    environment:
+      POSTGRES_DB: maintidoc
+      POSTGRES_USER: maintidoc
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Définir POSTGRES_PASSWORD dans .env}
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U maintidoc"]
+      interval: 10s
+      retries: 5
+  minio:
+    image: minio/minio:RELEASE.2025-09-07T16-13-09Z
+    command: server /data --console-address :9001
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Définir MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Définir MINIO_ROOT_PASSWORD}
+    ports: ["127.0.0.1:9000:9000", "127.0.0.1:9001:9001"]
+    volumes: ["minio_data:/data"]
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v3.17.2
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlruns/mlflow.db
+    ports: ["127.0.0.1:5000:5000"]
+    volumes: ["mlflow_data:/mlruns"]
+  api:
+    build: .
+    profiles: ["app"]
+    ports: ["127.0.0.1:8010:8000"]
+    volumes: ["./data:/app/data:ro", "./.local:/app/.local"]
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      MAINTIDOC_TICKET_BACKEND: postgres
+      MAINTIDOC_POSTGRES_DSN: postgresql://maintidoc:${POSTGRES_PASSWORD}@postgres:5432/maintidoc
+    depends_on:
+      postgres:
+        condition: service_healthy
+    extra_hosts: ["host.docker.internal:host-gateway"]
+volumes:
+  qdrant_data:
+  postgres_data:
+  minio_data:
+  mlflow_data:
