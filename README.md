@@ -1,31 +1,21 @@
-## Livrable 1 - préparation documentaire du 2 novembre 2026
-
-Le corpus cible contient 30 documents synthétiques (15 pompes/15 vannes), tous en attente de relecture et de décision de diffusion. Les scans physiques restent absents. Rapport et dossier provisoire : livrable1/preparation. Matrice : docs/livrable1/MATRICE_CONFORMITE.md. Dépôt documentaire local à publier seulement sur autorisation : livrable1/maintidoc. Les instructions du prototype ci-dessous restent distinctes de la conformité du livrable 1.
-
----
-
 # MAINTiDOC
 
 Assistant documentaire multimodal et agentique pour une démonstration académique
 sur la maintenance industrielle. Aucune commande de machine réelle.
 
-**Projet principal :** `C:\Users\Sasam\OneDrive\Desktop\MAINTiDOC_phase1_correction`.
 Le code et les données historiques sont préservés ; les nouveaux composants
 intégrés utilisent Python 3.11 dans `.venv311`.
 
 ## Lancement local
 
 ```powershell
-cd C:\Users\Sasam\OneDrive\Desktop\MAINTiDOC_phase1_correction
 .\.venv311\Scripts\python.exe -m src.bootstrap
 .\.venv311\Scripts\python.exe -m pytest -q
 .\.venv311\Scripts\python.exe -m uvicorn src.api:app --host 127.0.0.1 --port 8010 --no-access-log
-# Dans un second terminal :
-.\.venv311\Scripts\python.exe -m streamlit run ui/app.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
 ```
 
 Le jeton personnel est à ouvrir localement dans `.local/technicien-demo.token`,
-puis à saisir dans l'interface. Il n'est jamais affiché par les scripts.
+puis à utiliser pour les appels authentifiés. Il n'est jamais affiché par les scripts.
 Attendre la fin du chargement des modèles avant les questions.
 Ollama doit servir `qwen2.5vl:3b` sur 127.0.0.1:11434.
 
@@ -35,7 +25,7 @@ Ollama doit servir `qwen2.5vl:3b` sur 127.0.0.1:11434.
 - `docs/ARCHITECTURE.md` : composants, budgets, sécurité et écarts de stockage.
 - `docs/DEMONSTRATION.md` : parcours de démonstration et conditions préalables.
 - `docs/CONFORMITE.md` : correspondance au cahier des charges.
-- `reports/PROGRESSION.md` et `RAPPORT_FINAL_MAINTIDOC.md` : résultats réels et limites.
+- RAPPORT_FINAL_MAINTIDOC.md présente les résultats et limites.
 - `requirements.txt` : dépendances directes figées ; `requirements.lock.txt` : résolution complète.
 
 ## Corpus et protection
@@ -56,3 +46,7 @@ PostgreSQL et MinIO configurés dans Docker Compose. L'absence de modèle, d'ind
 CLIP ou de preuve est signalée ; aucune réponse technique n'est présentée comme
 vérifiée si les contrôles échouent. Le projet n'est pas déclaré intégralement
 conforme : consulter le rapport final avant une soutenance.
+
+## Livrable 1
+
+Les [diagrammes](docs/diagrammes/) sont disponibles. Le corpus local réunit 30 documents pédagogiques sur les pompes industrielles (famille 1) et les vannes industrielles (famille 2). Les supports de démonstration décrivent des équipements fictifs. Le corpus, son inventaire et le journal des prompts restent en attente de diffusion. Deux scans physiques et les relectures humaines restent à compléter.

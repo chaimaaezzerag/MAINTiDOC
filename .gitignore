@@ -1,4 +1,4 @@
-﻿# Environnements Python
+# Environnements Python
 .venv*/
 __pycache__/
 *.pyc
@@ -19,7 +19,14 @@ auth.json
 
 # Données volumineuses et temporaires
 data/
-corpus/
+/corpus/*
+!/corpus/inventaire.csv
+!/corpus/prompts_corpus.md
+!/corpus/documents/
+!/corpus/images/
+/corpus/documents/*
+!/corpus/documents/famille_1/
+!/corpus/documents/famille_2/
 backup_code_*.zip
 archives/
 reports/validation_reelle/
@@ -45,3 +52,13 @@ Thumbs.db
 # CI/CD local
 .github/workflows/
 ui/app.py
+
+*.pem
+*.pfx
+*.tmp
+models/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
